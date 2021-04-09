@@ -1,0 +1,34 @@
+RTI Perftest 3.0.1 a7a8334 (RTI Connext DDS 6.0.0)
+
+Mode: THROUGHPUT TEST
+      (Use "-latencyTest" for Latency Mode)
+
+Perftest Configuration:
+	Reliability: Reliable
+	Keyed: No
+	Publisher ID: 0
+	Latency count: 1 latency sample every 10000 samples
+	Data Size: 63000
+	Batching: No (Use "-batchSize" to setup batching)
+	Publication Rate: Unlimited (Not set)
+	Execution time: 120 seconds
+	Receive using: Listeners
+	Domain: 1
+	Dynamic Data: No
+	FlatData: No
+	Zero Copy: No
+	Asynchronous Publishing: No
+	XML File: perftest_qos_profiles.xml
+
+Transport Configuration:
+	Kind: UDPv4 & SHMEM (taken from QoS XML file)
+	Use Multicast: False
+
+Waiting to discover 1 subscribers ...
+Waiting for subscribers announcement ...
+Sending 15 initialization pings ...
+Publishing data ...
+Length: 63000  Latency: Ave  33690 us  Std 17313.9 us  Min   9213 us  Max  46501 us  50%  45355 us  90%  46501 us 99%  46501 us  99.99%  46501 us  99.9999%  46501 us CPU: 14.67%
+Finishing test due to timer...
+Serialization/Deserialization: 29.027 us / 28.062 us / TOTAL: 57.089 us
+Test ended.

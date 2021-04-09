@@ -1,0 +1,4 @@
+RTI Perftest 3.0.1 a7a8334 (RTI Connext DDS 6.0.0)
+Batching cannot be used in a Latency test.
+Test ended.
+command terminated with exit code 255

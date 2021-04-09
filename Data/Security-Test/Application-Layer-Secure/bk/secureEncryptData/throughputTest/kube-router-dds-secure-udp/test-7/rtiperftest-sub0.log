@@ -1,0 +1,43 @@
+RTI Perftest 3.1.0 53dfe4c (RTI Connext DDS 6.0.1)
+
+Perftest Configuration:
+	Reliability: Best Effort
+	Keyed: No
+	Subscriber ID: 0
+	Data Size: 256
+	Receive using: Listeners
+	Domain: 1
+	Dynamic Data: No
+	FlatData: No
+	Zero Copy: No
+	XML File: perftest_qos_profiles.xml
+
+Transport Configuration:
+	Kind: UDPv4 & SHMEM (taken from QoS XML file)
+	Nic: eth0
+	Use Multicast: False
+	SHMEM message_size_max: 65536
+	SHMEM received_message_count_max: 102
+	SHMEM receive_buffer_size: 6684672
+	Initial peers: 10.244.1.6
+
+Secure Configuration:
+	Encrypt discovery: False
+	Encrypt topic (user) data: True
+	Encrypt submessage: False
+	Sign data: False
+	Governance file: ./resource/secure/signed_PerftestGovernance_EncryptData.xml
+	Permissions file: ./resource/secure/signed_PerftestPermissionsSub.xml
+	Private key file: ./resource/secure/subkey.pem
+	Certificate file: ./resource/secure/sub.pem
+	Certificate authority file: ./resource/secure/cacert.pem
+	Plugin library: Not Specified
+
+Waiting to discover 1 publishers ...
+Waiting for data ...
+
+Throughput Summary:
+Length (Bytes), Total Samples, Ave Samples/s,    Ave Mbps, Lost Samples, Lost Samples (%), CPU (%)
+           256,        808124,          6734,        13.8,          587,             0.07,   16.21
+Finishing test...
+Test ended.

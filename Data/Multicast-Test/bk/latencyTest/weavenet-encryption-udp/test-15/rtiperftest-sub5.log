@@ -1,0 +1,24 @@
+RTI Perftest 3.0.1 a7a8334 (RTI Connext DDS 6.0.0)
+
+Perftest Configuration:
+	Reliability: Reliable
+	Keyed: No
+	Subscriber ID: 5
+	Data Size: 256
+	Receive using: Listeners
+	Domain: 1
+	Dynamic Data: No
+	FlatData: No
+	Zero Copy: No
+	XML File: perftest_qos_profiles.xml
+
+Transport Configuration:
+	Kind: UDPv4 & SHMEM (taken from QoS XML file)
+	Nic: eth0
+	Use Multicast: True
+
+Waiting to discover 1 publishers ...
+Waiting for data...
+Length:   256  Packets:    23428  Packets/s(ave):     195  Mbps(ave):     0.4  Lost:     0 (0.00%) CPU: 3.34%
+Finishing test...
+Test ended.

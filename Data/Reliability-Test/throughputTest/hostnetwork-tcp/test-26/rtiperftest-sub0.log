@@ -1,0 +1,31 @@
+RTI Perftest 3.1.0 5c0ba94 (RTI Connext DDS 6.0.1)
+
+Perftest Configuration:
+	Reliability: Best Effort
+	Keyed: No
+	Subscriber ID: 0
+	Data Size: 1024
+	Receive using: Listeners
+	Domain: 1
+	Dynamic Data: No
+	FlatData: No
+	Zero Copy: No
+	XML File: perftest_qos_profiles.xml
+
+Transport Configuration:
+	Kind: TCP
+	Nic: eth0
+	Use Multicast: False
+	TCP Server Bind Port: 7400
+	TCP LAN/WAN mode: LAN
+	Initial peers: 192.168.88.87:7400
+
+Waiting to discover 1 publishers ...
+Waiting for data ...
+
+Throughput Summary:
+Length (Bytes), Total Samples, Ave Samples/s,    Ave Mbps, Lost Samples, Lost Samples (%), CPU (%)
+          1024,       1148617,          9571,        78.4,            0,             0.00,   21.04
+Finishing test...
+Test ended.
+NDDS_Transport_TCPv4_Plugin_clientCloseControlConnection_connEA:attempt to remove socket 10 from socket group 0x1c862d0 failed

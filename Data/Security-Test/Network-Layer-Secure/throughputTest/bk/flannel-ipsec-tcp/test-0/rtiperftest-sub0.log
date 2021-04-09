@@ -1,0 +1,30 @@
+RTI Perftest 3.1.0 5c0ba94 (RTI Connext DDS 6.0.1)
+
+Perftest Configuration:
+	Reliability: Reliable
+	Keyed: No
+	Subscriber ID: 0
+	Data Size: 64
+	Receive using: Listeners
+	Domain: 1
+	Dynamic Data: No
+	FlatData: No
+	Zero Copy: No
+	XML File: perftest_qos_profiles.xml
+
+Transport Configuration:
+	Kind: TCP
+	Nic: eth0
+	Use Multicast: False
+	TCP Server Bind Port: 7400
+	TCP LAN/WAN mode: LAN
+	Initial peers: 10.244.1.2:7400
+
+Waiting to discover 1 publishers ...
+Waiting for data ...
+
+Throughput Summary:
+Length (Bytes), Total Samples, Ave Samples/s,    Ave Mbps, Lost Samples, Lost Samples (%), CPU (%)
+            64,        446045,          3716,         1.9,            0,             0.00,   14.76
+Finishing test...
+Test ended.

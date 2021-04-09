@@ -1,0 +1,39 @@
+RTI Perftest 3.1.0 5c0ba94 (RTI Connext DDS 6.0.1)
+
+Mode: LATENCY TEST (Ping-Pong test)
+
+Perftest Configuration:
+	Reliability: Reliable
+	Keyed: No
+	Publisher ID: 0
+	Latency count: 1 latency sample every 1 samples
+	Data Size: 256
+	Batching: No (Use "-batchSize" to setup batching)
+	Publication Rate: Unlimited (Not set)
+	Execution time: 120 seconds
+	Receive using: Listeners
+	Domain: 1
+	Dynamic Data: No
+	FlatData: No
+	Zero Copy: No
+	Asynchronous Publishing: No
+	XML File: perftest_qos_profiles.xml
+
+Transport Configuration:
+	Kind: UDPv4 & SHMEM (taken from QoS XML file)
+	Nic: eth0
+	Use Multicast: False
+	SHMEM message_size_max: 65536
+	SHMEM received_message_count_max: 102
+	SHMEM receive_buffer_size: 6684672
+
+Waiting to discover 1 subscribers ...
+Waiting for subscribers announcement ...
+Sending 50 initialization pings ...
+Sending data ...
+Finishing test due to timer...
+Test ended.
+
+One-way Latency Summary:
+Length (Bytes), Ave (us), Std (us), Min (us), Max (us), 50% (us), 90% (us), 99% (us), 99.99% (us), 99.9999% (us), CPU (%)
+           256,      691,    219.7,      467,    12975,      669,      843,     1152,        8100,         12975,    8.99

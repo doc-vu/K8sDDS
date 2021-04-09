@@ -1,0 +1,11 @@
+name,cpu(cores)(avg),cpu%(avg),memory(bytes)(avg),memory%(avg),cpu(cores)(std),cpu%(std),memory(bytes)(std),memory%(std)
+kangz1-virtualbox,1311,32,2410,62,,,,
+raspberrypi87,979,24,530,64,,,,
+raspberrypi89,402,10,541,65,,,,
+raspberrypi90,380,9,553,67,,,,
+raspberrypi91,348,8,525,63,,,,
+raspberrypi92,429,10,550,66,,,,
+raspberrypi93,380,9,548,66,,,,
+raspberrypi94,374,9,524,63,,,,
+raspberrypi95,378,9,536,64,,,,
+raspberrypi96,379,9,529,64,,,,

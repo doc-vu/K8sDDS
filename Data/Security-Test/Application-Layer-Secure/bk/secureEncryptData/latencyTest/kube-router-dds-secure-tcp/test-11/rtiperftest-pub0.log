@@ -1,0 +1,5 @@
+RTI Perftest 3.1.0 53dfe4c (RTI Connext DDS 6.0.1)
+Batching cannot be used in a Latency test.
+[Error]: _MessagingImpl was null or it could not be initialized
+Test ended.
+command terminated with exit code 255
